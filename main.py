@@ -37,10 +37,31 @@
 # print(f"Меня зовут {Person.name} и я заканчиваю работать в {Person.time}")
 
 
-class Number:
-    num1 = 5
-    num2 = 10
-    print(num1+num2)
-    
-print(Number.num1 + Number.num2)
+# class Number:
+#     num1 = 5
+#     num2 = 10
+#     print(num1+num2)
+#
+# print(Number.num1 + Number.num2)
 
+# class Backpack:
+#     things = ["Хомяк","капустка","фонарик","шапка Пикачу","игрушечный меч майнкрафт"]
+# for i in Backpack.things:
+#     print(i)
+
+
+# class Apple:
+#     color = "red"
+#
+# apple1 = Apple()
+# apple2 = Apple()
+# apple3 = Apple()
+#
+# print(apple1.color)
+# print(apple2.color)
+# print(apple3.color)
+
+class Person:
+    name = "Vasya"
+id_1 = Person()
+print(id_1.name)
