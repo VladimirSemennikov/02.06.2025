@@ -31,3 +31,16 @@
 # print(f"Моя машина {Car.color} цвета и марки {Car.marka}")
 
 
+# class Person:
+#     name = "Вася"
+#     time = 15
+# print(f"Меня зовут {Person.name} и я заканчиваю работать в {Person.time}")
+
+
+class Number:
+    num1 = 5
+    num2 = 10
+    print(num1+num2)
+    
+print(Number.num1 + Number.num2)
+
